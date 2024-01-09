@@ -75,6 +75,7 @@
     height: 600px;
     flex-shrink: 0;
     margin: auto;
+    padding-right: 0;
 }
 .midnight-file{
     padding-top: 126px;
@@ -117,7 +118,7 @@
 .location{
     background-color: #FFF;
     width: 1320px;
-    height: 482px;
+    height: auto;
     flex-shrink: 0;
     background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     background-repeat: no-repeat;
@@ -132,8 +133,9 @@
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 214px;
+    margin-bottom: 150px;
     border-radius: 10px;
+
 }
 
 .details{
@@ -169,4 +171,56 @@
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+
+.gift{
+    margin: auto;
+    
+}
+
+.g1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.g2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.g3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.items1{
+    display: flex;
+    width: 424px;
+    height: 450px;
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+
+.newbie{
+    display: flex;    
+}
+
+.img24{
+    margin: auto;
+    
 }
